@@ -1,6 +1,7 @@
+import Featured from './featured.js';
 class App {
   static async init() {
-    console.log('started');
+    await Featured.init();
   }
 }
 
