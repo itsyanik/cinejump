@@ -1,4 +1,12 @@
 {
+  "name": "cinema-webjump",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "author": "Allan Yanik <allan.carvalho@webjump.com.br>",
+  "license": "MIT",
+  "scripts": {
+    "watch": "node src/index.js"
+  },
   "dependencies": {
     "express": "^4.17.1",
     "xmlhttprequest": "^1.8.0"
