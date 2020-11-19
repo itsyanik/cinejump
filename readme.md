@@ -11,7 +11,17 @@ Outros itens não obrigatórios são: uma listagem de trailers dos filmes popula
 
 ## Rodando o projeto
 
+Observação: antes de iniciar, certifique-se de ter uma chave de desenvolvedor do The Movie Database.
+
 Após clonar este repositório, navegue até a pasta em que ele está localizado e rode o comando:
 `yarn install` ou apenas `yarn` para que as dependências sejam instaladas.
+
+Crie um arquivo `.env` na pasta `src` com a seguinte estrutura:
+
+``
+module.exports = {
+ AP_KEY=YOUR_API
+}
+``
 
 Em seguida, rode o comando `yarn watch` para iniciar o servidor local e navegar pela aplicação. Por padrão essa aplicação roda na porta `5000`, mas você pode facilmente alterar isso no arquivo `src/index.js` caso prefira outra porta.
