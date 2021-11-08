@@ -3,6 +3,7 @@ import Popular from './popular.js';
 import NowPlaying from './nowPlaying.js';
 import Trailers from './trailers.js';
 import Favorites from './favorites.js';
+// test
 class App {
   static async init() {
     await Featured.init();
